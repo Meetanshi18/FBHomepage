@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>facebook homepage</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="icon" href="webimages/fb.png" type="image/png" sizes="16x16">
+       
+    </head>
+    <body>
+        <nav>
+            <div id="logo">
+                            
+            </div>
+            <div>
+                <ul>
+                    <li><a href="webimages/fb.png">Home</a></li>
+                    <li><a href="index.html" >About Us</a></li>
+                    <li><a href="index.html">Team</a></li>
+                    <li><a href="index.html">Gallery</a></li>
+                    <li><a href="#bottom">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div id="major-part">
+        <div class="photos-collection">
+            
+            <div class="picture-box">
+                
+                <div id="user1">
+                    <div class="profile-name">
+                        <span class="profile-name-written">
+                            MARK
+                        </span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="picture-box">
+                <div id="user2">
+                    <div class="profile-name">
+                        <span class="profile-name-written">
+                            MARK
+                        </span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="picture-box">
+                <div id="user3">
+                    <div class="profile-name">
+                        <span class="profile-name-written">
+                            MARK
+                        </span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="picture-box">
+                <div id="user4">
+                    <div class="profile-name">
+                        <span class="profile-name-written">
+                            MARK
+                        </span>
+                    </div>
+                </div>                
+            </div>
+            
+        </div>
+            <section class="signup-form">
+                
+                    <p style="font-family:Helvetica,Arial,sans-serif; font-weight:bold; color:#333; font-size:36px;">
+                        Sign Up
+                        <p style="font-family:'Freight Sans',Helvetica,Arial, sans-serif !important; font-size:19px; color:#1d2129; margin-top:-15px;">
+                            It's free and always will be.
+                        </p>
+                    </p>  
+                <form method="post" action="submit.php">
+                    <input type="text" name="first_name" placeholder="First Name">  
+                    <input type="text" name="last_name" placeholder="Last Name">
+                    <input type="text" name="mobile" placeholder="Mobile Number">
+                    <input type="text" name="email" placeholder="Email Address">
+                    <input type="password" name="password" placeholder="New Password">
+                    <h3 style="font-family:Helvetica;">Birthday</h3>
+                    <select>
+                        <option value="day">Day</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <?php 
+	for($i=1;I<=30;$i++)
+	{?>
+                    </select>
+                    <select>
+                        <option value="month">Month</option>
+                        <option value="1">Jan</option>
+                        <option value="2">Feb</option>
+                    </select>
+                    <select>
+                        <option value="year">Year</option>
+                        <option value="1991">1991</option>
+                        <option value="1992">1992</option>
+                    </select>
+                    <br>
+                    <input type="radio" name="gender" value="female" style="height:20px; width:20px;">Female
+                    <input type="radio" name="gender" value="male" style="height:20px; width:20px;">Male 
+                    <br>
+                    <p style="font-familt:Helvetica; font-size:11px; color:#777">
+                        My Paragraph
+                    </p>
+                    <button id="create-account" type="submit">Create an Account</button>
+                </form>
+                
+            </section>        
+        </div>
+    <footer id="pageFooter">
+        <div id="contact">
+            <p>Contact Us<hr width="20%" style="margin-top:-15px;"</p>
+            <p>Facebook HQ<br>Menlo Park,CA</p>
+        </div>
+        <div id="relatedtags">
+            <p id="rel" style="font-family:Helvetica; font-size:25px; color:white;">Related Tags</p>
+            <ul>
+                <li><a href="index.html">Find Friends</a></li>
+                <li><a href="index.html">Developers</a></li>
+            </ul>
+        </div>
+        <div id="follow">
+            <p style="color:white; font-family:Helvetica; font-size:25px;">Follow Us</p>
+            <a href="http://www.twitter.com" target="_blank">
+                <img src="webimages/twi.png">
+            </a>
+            <a href="http://www.twitter.com" target="_blank">
+                <img src="webimages/insta.png">
+            </a>
+            <a href="http://www.twitter.com" target="_blank">
+                <img src="webimages/fb.png">
+            </a>
+            
+        </div>
+    </footer>
+        <a name="bottom"></a>
+    </body>
+</html>
